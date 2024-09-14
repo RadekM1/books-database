@@ -1,11 +1,11 @@
 <?php
 class DbConnect
 {
-    private $server = 'mysql80.r3.websupport.cz';
-    private $dbname = 'eshop_vsb_test';
-    private $user = 'eshop_vsb';
-    private $pass = 'BMWm3white';  
-    private $port = 3314;
+    private $server = '';
+    private $dbname = '';
+    private $user = '';
+    private $pass = '';  
+    private $port = ;
     private $options = array(
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_EMULATE_PREPARES => false,
